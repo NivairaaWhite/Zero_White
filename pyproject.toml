@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zero-white"
+version = "6.4.0"
+description = "A numpy-only chat model trained on the files in your data folder (online learning, background service, voice in/out) plus a general model that builds its own agents and rewrites its own search rules under test-gated, reversible control."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24"]
+keywords = ["chat", "transformer", "numpy", "online-learning", "speech", "evolutionary-computation", "program-synthesis", "self-modifying", "open-ended-evolution", "neuroevolution", "numpy"]
+
+[project.optional-dependencies]
+# nothing here is required; each extra adds an optional capability that is imported lazily
+parquet = ["pyarrow"]                 # read .parquet datasets
+yaml = ["pyyaml"]                     # YAML config files
+audio = ["sounddevice"]               # microphone capture / speaker playback (needs the PortAudio library)
+speech = ["sounddevice", "vosk", "pyttsx3"]   # extra speech engines (pre-trained recognisers; see docs/VOICE.md)
+
+[project.scripts]
+zerowhite = "zerowhite.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["zerowhite*"]
+
+[tool.setuptools.package-data]
+zerowhite = ["data/*", "CONSTITUTION.sha256", "chat/service/ui.html", "chat/corpus/catalog.json"]

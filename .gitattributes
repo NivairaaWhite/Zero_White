@@ -1,0 +1,5 @@
+# Keep line endings stable: the constitution seal hashes file contents (it is also CRLF-insensitive, belt and braces).
+* text=auto eol=lf
+*.gz binary
+*.png binary
+*.npz binary

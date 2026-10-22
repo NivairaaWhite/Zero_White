@@ -1,0 +1,15 @@
+{
+  "selfmod/safety.py": "6691d6e5ebbcbb5c899d1bc1e1bf854a33f7991687a4dc64223ac30a7cddc2ad",
+  "selfmod/history.py": "740abd130a5eac85e59738aa456c2723be1c3a98fde7e82815818dca737204d0",
+  "selfmod/sandbox.py": "d9ea04eb3a2d78eafc88ec7ab3c8addf742c00c926daf68b82002483b9df9206",
+  "selfmod/patcher.py": "410204ddbae393a465d2c42d0b16ff5aa9ca10a7d3271be8315063928bea86dc",
+  "selfmod/winjob.py": "ae9eb7777784ef190d7358aba69db81a72aca163d907c326d60124fb0a3c03aa",
+  "selfmod/stats.py": "1c161b164103c133365c8fa01f6360429bf29b9cec6a0a7f12fd4604a31e23a7",
+  "selfmod/watchdog.py": "d91c6e4bc71a812f63ca203368c21782146847894cdf1687ab3f6f520f4c36b6",
+  "selfmod/engine_tier.py": "cd6f20a0f803ed7ee0b6b8c028819b156d4855ef6b576a4246c80de4fa7acb3d",
+  "forage/fetch.py": "a336da63cb9f14773fd53a542524ba30cfff5b191e2796eb63b6df8040d039c4",
+  "selfmod/astmut.py": "58ffb8a9e0dac22e5451b3f02e4e819592b02512bb1867cacc028ab5405d56b8",
+  "fileio.py": "7d491691189a23dd6aa54f5b710fc6cca68fda96a1c2aebcb7ec3e2bce9b1fdd",
+  "doctor.py": "a21800aa418a670552fb05aa27e3a1c032e0ce8a1974fd8bf6b16577fc895771",
+  "evolved/__init__.py": "2f26b399874c7948a20bc8c2f0fb08498b79c7857ce5ec4c2d40f40f55e09ae7"
+}

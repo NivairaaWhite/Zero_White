@@ -1,0 +1,15 @@
+{
+  "// what this does": "PIPPA rows are kept only when the persona text (system prompt / bot description) mentions a sister-like word. Whole-word matching, so 'analysis' and 'thesis' do not match 'sis'.",
+  "adapter": "pippa",
+  "filter": {
+    "persona": {
+      "enabled": true,
+      "keywords": ["sister", "sibling", "big sis", "sis", "step-sister", "stepsister", "imouto", "onee-chan", "oneesan"],
+      "match": "word",
+      "where": ["system", "meta"],
+      "require": "any"
+    },
+    "safety": {"drop_sexual": true}
+  },
+  "weight": 2.0
+}
