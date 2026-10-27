@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+# workspaces and run output (a workspace holds the agents + the self-written code history; keep it out of git)
+zw/
+runs/
+workspace*/
+*.corrupt-*
+.tmp_*
+zw-chat/
+my-bot/
+# a chat workspace holds your data, models, tokens and logs
+state/token
+*.stt.npz
+.zw_promotion/

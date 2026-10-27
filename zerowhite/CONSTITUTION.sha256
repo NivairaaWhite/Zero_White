@@ -1,0 +1,19 @@
+{
+  "selfmod/safety.py": "6691d6e5ebbcbb5c899d1bc1e1bf854a33f7991687a4dc64223ac30a7cddc2ad",
+  "selfmod/history.py": "740abd130a5eac85e59738aa456c2723be1c3a98fde7e82815818dca737204d0",
+  "selfmod/sandbox.py": "48905586a4633ffb2aead70a785274c398dc4d4e9035c7280450c2fab5618d97",
+  "selfmod/patcher.py": "af181aa7a1339daf64029e3fdd66f9a19b3a6ada3078a90a7b6b196d8a1ba78e",
+  "selfmod/winjob.py": "ae9eb7777784ef190d7358aba69db81a72aca163d907c326d60124fb0a3c03aa",
+  "selfmod/stats.py": "1c161b164103c133365c8fa01f6360429bf29b9cec6a0a7f12fd4604a31e23a7",
+  "selfmod/watchdog.py": "d91c6e4bc71a812f63ca203368c21782146847894cdf1687ab3f6f520f4c36b6",
+  "selfmod/engine_tier.py": "cd6f20a0f803ed7ee0b6b8c028819b156d4855ef6b576a4246c80de4fa7acb3d",
+  "forage/fetch.py": "a336da63cb9f14773fd53a542524ba30cfff5b191e2796eb63b6df8040d039c4",
+  "selfmod/astmut.py": "38741c66896c4ee4430fe3c10ddbbd396ab5f1c158f2fbe51164a692766064ef",
+  "fileio.py": "7d491691189a23dd6aa54f5b710fc6cca68fda96a1c2aebcb7ec3e2bce9b1fdd",
+  "doctor.py": "09622a94e60e323bdb3afd0a05efa7fd00cf35f6c3044b318d334fba4bcea085",
+  "evolved/__init__.py": "2f26b399874c7948a20bc8c2f0fb08498b79c7857ce5ec4c2d40f40f55e09ae7",
+  "selfmod/memwatch.py": "2fcd49fdd5f2842ab063f35e63bb34bcd78fbcfb4cec6cae9a9c74c692d075a2",
+  "forage/act.py": "51b9029da168a452894d49b4c35a2cb984ac629b5ea9529e0d9704ab425795a3",
+  "selfmod/bench.py": "c7d30fcac8d79c3d939a866e84bbf9f9c63c837e4d3947e497ec9be892293b42",
+  "forge/architect.py": "7c89868555f997ece6841d22a30f014692b865655d0a07772babbc4dabc9af1e"
+}
